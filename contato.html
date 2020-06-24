@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" contente="S e S Web World" />
+    <meta name="author" content="Carlos Eduardo Salvador" />
+    <meta name="author" content="Leticia Alves Santana" />
+    <meta name="description" content="S e S Web World, Desenvolvimento Web, Desenvolvimento de Sites, Desenvolvimento de Aplicativos" />
+    <meta name="keywords" content="sites, desenvolvimento, programação, web design, desenvolvimento de sites, desenvolvimento web, aplicativos, desenvolvimento de aplicativos, manutenção de sites" />
+    <meta name="copyright" content="&copy; S & S WEB WORLD" />
+    <title>Contato</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/4269logo-oficial.ico" type="image/x-icon" />
+    <!--CSS Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- Fontes Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">  
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Mascaras Inputs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <!-- reCaptcha Google -->
+    <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+</head>
+<body>
+
+    <div class="container-fluid" id="conteudo">
+        <div class="container-fluid bg-personal">
+            <header class="container">
+                <nav class="navbar navbar-expand-lg bg-white">
+                        <img src="img/logo-oficial2.jpg" height="180" class="d-inline-block align-top" alt="Logo S e S Web World">
+                    <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+                        <span class="btn btn-personal"> Menu +</span>
+                    </button>
+                    <div id="menu" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav text-uppercase font-weight-bold">
+                            <li class="nav-item links">
+                                <a href="index.html" class="nav-link py-3 px-0 px-lg-3">Home</a>
+                            </li>
+                            <li class="nav-item links">
+                                <a href="sobre.html" class="nav-link py-3 px-0 px-lg-3">Sobre</a>
+                            </li>
+                            <li class="nav-item links">
+                                <a href="servicos.html" class="nav-link py-3 px-0 px-lg-3">Serviços</a>
+                            </li>
+                            <li class="nav-item links">
+                                <a href="portfolio.html" class="nav-link py-3 px-0 px-lg-3">Portfólio</a>
+                            </li>
+                            <li class="nav-item links">
+                                <a href="contato.html" class="nav-link py-3 px-0 px-lg-3">Contato</a>
+                            </li>
+                        </ul>
+                        <a href="contato.html" class="btn col-md-3 btn-orcamento ml-auto">Solicitar Orçamento</a>
+                    </div>
+                </nav>
+            </header>
+    </div>
+    <div class="container">
+        <h1>Contato</h1>
+        <br />
+        <p>Entre em contato conosco através do formulário abaixo: </p>
+        <br />
+    </div>
+    <div class="container">
+        <form action="https://formspree.io/xknqzdqg" method="post" class="needs-validation">
+            <div class="form-group">
+                <label for="nome">Nome: </label>
+                <input type="text" class="form-control" name="nome" placeholder="Insira seu nome" id="nome" required />
+                <div class="valid-feedback">OK</div>
+                <div class="invalid-feedback">Preencha o campo</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" class="form-control" name="email" placeholder="Insira seu email" id="email" required />
+                <div class="valid-feedback">OK</div>
+                <div class="invalid-feedback">Preencha o campo</div>
+            </div>
+            <div class="form-group">
+                <label for="celular">Celular: </label>
+                <input type="tel" class="form-control" name="celular" placeholder="Insira seu número" id="celular" required />
+                <div class="valid-feedback">OK</div>
+                <div class="invalid-feedback">Preencha o campo</div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" name="cidade" placeholder="Insira sua cidade" id="cidade" required />
+                    <div class="valid-feedback">OK</div>
+                    <div class="invalid-feedback">Preencha o campo</div>
+                </div>
+                <div class="col">
+                    <select name="estados" class="custom-select" id="estados" aria-label="Estados" required>
+                        <option selected>Selecione seu Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <select name="assunto" class="custom-select" id="assunto" aria-label="assunto" required>
+                    <option selected>Assunto</option>
+                    <option value="orcamentosite">Orçamento de Criação de Site</option>
+                    <option value="manutencaootimizacao">Manutenção e Otimização de Site</option>
+                    <option value="aplicativosmobile">Desenvolvimento de Aplicatiovs Mobile</option>
+                    <option value="duvidascriticassugestoes">Dúvidas, Críticas, Sugestões</option>
+                </select>
+                <div class="valid-feedback">OK</div>
+                <div class="invalid-feedback">Preencha o campo</div>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem: </label>
+                <textarea class="form-control" maxlength="180" name="mensagem" id="mensagem" cols="15" rows="5"></textarea>
+                <small>*Máximo 180 caracteres</small>
+                <div class="valid-feedback">OK</div>
+                <div class="invalid-feedback">Preencha o campo</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-danger btn-lg" onclick="enviar();">Enviar</button>
+                </div>
+                <div class="col">
+                    <div class="g-recaptcha" data-sitekey="6LeYzagZAAAAAPY5y-9H-MtIXrBOVPR7mIsRlNyt"></div>
+                </div>
+            </div>
+        </form> 
+    </div>  
+    <br />
+    <div class="container">
+        <h6 class="text-center">Ou se preferir mande mensagem diretamente no nosso WhatsApp&copy; ao lado&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></h6>
+    </div>
+    <div id="mySideNav" class="sidenav">
+        <a href="https://bityli.com/YbyVJ" id="whatsapp" target="_blank" data-toggle="tooltip" data-placement="top" title="WhatsApp Carlos | Cravinhos - SP"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+    <div id="mySideNav1" class="sidenav">
+        <a href="https://bityli.com/Dk9Ca" id="whatsapp1" target="_blank" data-toggle="tooltip" data-placement="top" title="WhatsApp Leticia | Sertãozinho - SP"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+        <!-- Rodapé -->
+        <footer class="container-fluid bg-rodape1">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="text-light align-middle"><i class="fas fa-info-circle fa-2x mr-2 text-light"></i> Localização</h5>
+                        <h6 class="text-light">Regional Cravinhos</h6>
+                        <h6 class="text-light">Rua Calil Issa, 135, Jardim das Acácias - Cravinhos - SP</h6>
+                        <br />
+                        <span class="underline-footer"></span>
+                        <br />
+                        <h6 class="text-light">Regional Sertãozinho</h6>
+                        <h6 class="text-light">Rua Antônia Braz, 353, Jardim Alvorada - Sertãozinho - SP</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-light">Sobre a S e S Web World <span class="underline-footer"></span></h6>
+                                <ul class="text-light">
+                                    <li><a href="sobre.html" class="text-light">Quem Somos?</a></li>
+                                    <li><a href="portfolio.html" class="text-light">Portifólio</a></li>
+                                    <li><a href="contato.html" class="text-light">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-light mb-3 bg-card-rodape">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="far fa-building mr-2 fa-2x icon-banner-rodape"></i> Traga sua empresa</h4>
+                                <p class="card-text text-justify">Peça um orçamento sem compromisso e veja como podemos mudar a imagem da sua empresa na Web.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="container-fluid bg-rodape2">
+            <div class="container py-4">
+                <img src="img/logo-oficial2.jpg" height="120" class="mx-auto d-inline-block" alt="Logotipo S e S Web World Rodapé" />
+                <div class="text-center">
+                    <a href="https://www.facebook.com/seswebworld/" class="icone-social py-3 px-0 px-lg-1 my-auto" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com/seswebworld/" class="icone-social py-3 px-0 px-lg-1 my-auto" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/company/s-s-web-world/" class="icone-social py-3 px-0 px-lg-1 my-auto" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+
+    <!--js Bootstrap jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popover.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/alerta_envio.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script>
+        $(function () {
+           $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <script>
+        jQuery(function($){
+           $("#celular").mask("(99) 99999-9999"); 
+        }); 
+    </script>
+</body>
+</html>
