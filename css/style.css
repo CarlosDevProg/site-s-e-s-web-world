@@ -194,6 +194,21 @@ div.container#paginas{
     display: flex;
     justify-content: center;
 }
+/* Página de Templates*/
+.box{
+    width: 570px;
+    float: inline-start;
+    margin-top: 80px;
+}
+img.template{
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 /* Página de Contato */
 #mySideNav a{
@@ -263,6 +278,15 @@ a.icone-social {
     width: 70px;
     display: block;
     margin-top: 5px;
+}
+.btnDownload {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.linkDownload {
+    text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 500px) {
